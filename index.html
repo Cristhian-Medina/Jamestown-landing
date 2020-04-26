@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- Font: Poppins 400, 700, Inter 400, 700 -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles/main.css">
+
+  <title>Jamestown</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <ul class="nav citys">
+        <li>Conoce nuestras sedes:</li>
+        <li><a href="#cities">Cúcuta</a></li>
+        <li><a href="#cities">Ibagué</a></li>
+        <li><a href="#cities">Pereira</a></li>
+        <li><a href="#cities">Villavicencio</a></li>
+      </ul>
+
+      <ul class="nav social">
+        <li><a href="#" class="fab fa-facebook-square"></a></li>
+        <li><a href="#" class="fab fa-youtube"></a></li>
+        <li><a href="#" class="fab fa-twitter"></a></li>
+        <li><a href="#" class="fab fa-instagram"></a></li>
+      </ul>
+    </div>
+    <div class="header-nav">
+      <a href="#" class="header-logo"><img src="img/new-logo.png" alt="logo"></a>
+      <ul class="nav menu">
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">CONÓCENOS</a></li>
+        <li><a href="#">EGRESADOS</a></li>
+        <li><a href="#contact">PROGRAMAS</a></li>
+        <li><a href="#">SERVICIOS</a></li>
+        <li><a href="#contact">HABLEMOS</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="login.html" class="btn btn1">PROGRAMAR CLASE</a></li>
+        <li><img src="img/icon-spain.png" alt="español"></li>
+        <li><img src="img/icon-bretain.png" alt="ingles"></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="showcase mb50">
+      <p>Foto de David Jakab en Pexels</p>
+    </div>
+
+    <div class="testimony">
+      <h2 class="title t2">Testimonios</h2>
+      <h1 class="title t1 mb50">Jamestown</h1>
+      <p class="text">Conozca algunos de los Miles de alumnos certificados internacionalmente IELTS.</p>
+      <p class="text mb50">No son actores, son personas como tú</p>
+
+      <div class="cards-container">
+        <div class="card">
+          <img class="card-image" src="img/student01.jpg" alt="person 
+          Foto de Filipe Sabino en Pexels
+          ">
+          <p class="card-title">Ida Chavarría Solís</p>
+          <div class="card-description">
+            <p class="description-occupation">Labor training manager</p>
+            <p class="description-score">b1 | sede cućuta</p>
+            <p class="description-comment">Comentario Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+              quos veniam necessitatibus numquam inventore vel ad consectetur earum, excepturi maiores facilis animi
+              sequi nostrum, officia nesciunt? Quia corrupti autem laborum.</p>
+            <a href="#" class="btn-link"><i class="fa fa-play-circle"></i> Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav nav-cards">
+        <span class="btn btn1"><i class="fas fa-angle-left "></i></span>
+        <span class="btn btn1"><i class="fas fa-angle-right "></i></span>
+      </div>
+    </div>
+
+    <div class="venues" id="cities">
+      <h2 class="title t2 mb50">Nuestras Sedes</h2>
+      <div class="grid4 mb50">
+        <figure class="venues-city">
+          <img class="city-img" src="img/city.jpg" alt="Cúcuta">
+          <figcaption class="city-name">Sede Cúcuta</figcaption>
+        </figure>
+        <figure class="venues-city">
+          <img class="city-img" src="img/city02.jpg" alt="Cúcuta">
+          <figcaption class="city-name">Sede Ibagué</figcaption>
+        </figure>
+        <figure class="venues-city">
+          <img class="city-img" src="img/city.jpg" alt="Cúcuta">
+          <figcaption class="city-name">Sede Pereira</figcaption>
+        </figure>
+        <figure class="venues-city">
+          <img class="city-img" src="img/city02.jpg" alt="Cúcuta">
+          <figcaption class="city-name">Sede Villavicencio</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="quotation" id="contact">
+      <div class="quotation-form">
+        <form class="form" action="">
+          <h3 class="form-title">Elige el programa de inglés que mas se ajuste a ti</h3>
+          <input class="ipt" type="text" placeholder="Nombre y Apellido">
+          <input class="ipt" type="email" placeholder="E-mail">
+          <input class="ipt" type="text" placeholder="Telefono">
+          <select class="ipt">
+            <option selected>Ciudad de preferencia</option>
+            <option value="Cucuta">Cúcuta</option>
+            <option value="Ibagué">Ibagué</option>
+            <option value="Pereira">Pereira</option>
+            <option value="Villavicencio">Villavicencio</option>
+          </select>
+          <select class="ipt">
+            <option selected>Programa de tú interes</option>
+            <option value="Programa Estandar">Programa Estandar</option>
+            <option value="Uno a Uno">Uno a Uno</option>
+            <option value="Semi intensivo">Semi intensivo</option>
+            <option value="Intensivo">Intensivo</option>
+            <option value="TKT">TKT</option>
+            <option value="Preparación IELTS">Preparación IELTS</option>
+          </select>
+          <input class="btn2" type="submit" value="Enviar">
+          <p class="form-subtitle">El envío del formulario supone la aceptación de la política de privacidad</p>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer grid3">
+    <div class="info-our">
+      <ul class="flex-col">
+        <li>Egresados</li>
+        <li>Pulicaciones</li>
+      </ul>
+      <ul class="flex-col">
+        <li>Nuestras Sedes</li>
+        <li>Cúcuta</li>
+        <li>Ibagué</li>
+        <li>Pereira</li>
+        <li>Villavicencio</li>
+      </ul>
+    </div>
+
+    <div class="info-legal">
+      <ul class="flex-col">
+        <li>Documentos</li>
+        <li>Manual de Convivencia</li>
+        <li>Política de Datos Personales</li>
+        <li>Instructivo del Laboratorio Virtual</li>
+      </ul>
+      <img src="img/calidad.png" alt="certified">
+    </div>
+
+    <div class="copyright flex-col">
+      <img class="mb10" src="img/logo_white.png" alt="logo">
+      <p class="mb10">2020 - Todos los derechos reservados</p>
+      <p class="mb10">Company: Childs & Teens CIA LTDA</p>
+      <ul class="nav social">
+        <li><a href="#" class="fab fa-facebook-square"></a></li>
+        <li><a href="#" class="fab fa-youtube"></a></li>
+        <li><a href="#" class="fab fa-twitter"></a></li>
+        <li><a href="#" class="fab fa-instagram"></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
