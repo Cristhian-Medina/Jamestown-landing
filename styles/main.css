@@ -34,6 +34,10 @@ li {
   list-style: none;
 }
 
+li{
+  margin: 0 10px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -41,7 +45,6 @@ a {
 
 .nav {
   display: flex;
-  gap: 20px;
 }
 
 .flex-col {
@@ -134,7 +137,7 @@ a {
   padding-right: 80px;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   font-size: 12px;
   font-weight: 400;
   background-color: var(--color-primary);
@@ -266,6 +269,7 @@ a {
   width: 25px;
   height: 25px;
   padding: 0;
+  margin: 0 5px;
   border-radius: 3px;
   text-align: center;
 }
